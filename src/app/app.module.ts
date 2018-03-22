@@ -3,11 +3,15 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { GiphyComponent } from './giphy/giphy.component';
+import { SearchComponent } from './search/search.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    GiphyComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule
